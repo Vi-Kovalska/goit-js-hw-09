@@ -1,0 +1,25 @@
+body {
+    background-color: #fff;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 24px;
+}
+.gallery-link {
+    width: calc((100% - 9*24px)/3);
+}
+.gallery-image{
+    width: 360px;
+    height: 200px;
+}
