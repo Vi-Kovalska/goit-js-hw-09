@@ -81,11 +81,6 @@ const images = [
 const menuGallery = document.querySelector(".gallery");
 menuGallery.innerHTML = markup;
 
-const originalLink = document.querySelector(".gallery-link");
-
-const galleryImg = document.querySelector(".gallery-image");
-
-
-
+const lightbox = new  SimpleLightbox ( '.gallery a' ,  {captionsData: "alt", captionDelay: "250", className: "wrapper" } ) ;
 
 
